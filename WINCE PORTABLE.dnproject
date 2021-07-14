@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project author="Ноутбук" authorOS="Windows 7" createdAt="1495039024641" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="WINCE PORTABLE" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1620060749989">
+  <tree>
+    <expanded>
+    <path src=""/>
+      <path src="/src"/>
+      <path src="/src/.theme"/>
+      <path src="/src/app"/>
+      <path src="/src/app/forms"/>
+      <path src="/src/app/modules"/>
+    </expanded>
+  </tree>
+  <openedFiles>
+  <file src="WINCE PORTABLE.dnproject"/>
+    <file src="src/app/modules/MainModule.php"/>
+    <file src="src/app/forms/MainForm.php"/>
+    <file src="src/app/forms/DISK.php"/>
+    <file src="src/app/forms/installing1.php"/>
+    <file src="src/app/forms/installing2.php"/>
+    <file src="src/app/forms/installing3.php"/>
+    <file src="src/app/forms/installing4.php"/>
+    <file src="src/app/forms/restart1.php"/>
+    <file src="src/app/forms/loading.php"/>
+    <file src="src/app/forms/dekstop.php"/>
+    <file src="src/app/forms/comp.php"/>
+    <file src="src/app/forms/edge.php"/>
+    <file src="src/app/forms/korzina.php"/>
+    <file src="src/app/forms/notepad.php"/>
+    <file src="src/app/forms/replace.php"/>
+    <file src="src/app/modules/modulesNotepad.php"/>
+    <file src="src/app/forms/settings.php"/>
+    <file src="src/app/forms/login.php"/>
+    <file selected="1" src="src/app/forms/provodnik.php"/>
+  </openedFiles>
+  <files/>
+  <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
+    <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\BackupProjectBehaviour"/>
+  </behaviours>
+</project>

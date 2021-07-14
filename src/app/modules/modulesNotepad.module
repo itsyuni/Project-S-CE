@@ -1,0 +1,29 @@
+{
+  "props": [],
+  "components": {
+    "saveFile": {
+      "type": "script\\FileChooserScript",
+      "x": 80,
+      "y": 16,
+      "props": {
+        "filterName": "Все файлы",
+        "filterExtensions": "*.*",
+        "filterAny": "0",
+        "inputNode": "",
+        "actionNode": ""
+      }
+    },
+    "openFile": {
+      "type": "script\\FileChooserScript",
+      "x": 16,
+      "y": 16,
+      "props": {
+        "filterName": "Все файлы",
+        "filterExtensions": "*.*",
+        "filterAny": "0",
+        "inputNode": "",
+        "actionNode": ""
+      }
+    }
+  }
+}

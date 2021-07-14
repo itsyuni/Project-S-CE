@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="dekstop">
+    <method name="doButtonClickLeft">
+      <showForm form="comp" form-type="form"/>
+    </method>
+  <method name="doButtonAltClickLeft">
+      <showForm form="edge" form-type="form"/>
+    </method>
+  <method name="doButton3ClickLeft">
+      <showForm form="korzina" form-type="form"/>
+    </method>
+  
+  
+  
+  <method name="doButton4ClickLeft">
+      <elementShow object="rect4" object-type="object"/>
+      <elementShow object="label7" object-type="object"/>
+      <elementShow object="label8" object-type="object"/>
+      <elementShow object="label9" object-type="object"/>
+      <elementShow object="label10" object-type="object"/>
+      <elementShow object="label11" object-type="object"/>
+      <elementShow object="label12" object-type="object"/>
+      <elementShow object="label13" object-type="object"/>
+      <elementShow object="label14" object-type="object"/>
+      <elementShow object="label15" object-type="object"/>
+      <elementShow object="label16" object-type="object"/>
+      <elementShow object="label17" object-type="object"/>
+    </method>
+  
+  <method name="doRectClickLeft">
+      <elementHide object="rect4" object-type="object"/>
+      <elementHide object="label7" object-type="object"/>
+      <elementHide object="label8" object-type="object"/>
+      <elementHide object="label10" object-type="object"/>
+      <elementHide object="label9" object-type="object"/>
+      <elementHide object="label11" object-type="object"/>
+      <elementHide object="label12" object-type="object"/>
+      <elementHide object="label13" object-type="object"/>
+      <elementHide object="label14" object-type="object"/>
+      <elementHide object="label15" object-type="object"/>
+      <elementHide object="label16" object-type="object"/>
+      <elementHide object="label17" object-type="object"/>
+    </method>
+  
+  <method name="doLabel8ClickLeft">
+      <showForm form="notepad" form-type="form"/>
+    </method>
+  
+  <method name="doLabel16ClickLeft">
+      <showForm form="settings" form-type="form"/>
+    </method>
+  
+  <method name="doLabel17ClickLeft">
+      <applicationShutdown/>
+    </method>
+  <method name="doLabel15ClickLeft">
+      <showForm form="provodnik" form-type="form"/>
+    </method>
+  
+  <method name="doShow">
+      <elementHide object="rect4" object-type="object"/>
+      <elementHide object="label7" object-type="object"/>
+      <elementHide object="label15" object-type="object"/>
+      <elementHide object="label8" object-type="object"/>
+      <elementHide object="label14" object-type="object"/>
+      <elementHide object="label16" object-type="object"/>
+      <elementHide object="label17" object-type="object"/>
+    <elementHide object="label11" object-type="object"/>
+    </method>
+  </class>
+</root>

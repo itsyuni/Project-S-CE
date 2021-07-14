@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="640" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#4d66cc" focusTraversable="false" height="480" id="rect" layoutX="0" layoutY="0" stroke="#4d66cc" strokeType="INSIDE" strokeWidth="2" styleClass="" width="640"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#f2f2f2" focusTraversable="false" height="40" id="rectAlt" layoutX="16" layoutY="16" stroke="#f2f2f2" strokeType="INSIDE" strokeWidth="2" styleClass="" width="608"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="198" layoutY="24" prefHeight="17" prefWidth="264" styleClass="label " text="Установка Windows CE Portable 1.1&#10;" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="16"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#e6e6e6" focusTraversable="false" height="384" id="rect3" layoutX="16" layoutY="80" stroke="#e6e6e6" strokeType="INSIDE" strokeWidth="2" styleClass="" width="608"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect3" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="24" layoutY="440" prefHeight="16" prefWidth="96" styleClass="label " text="Microsoft inc." textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="24" layoutY="88" prefHeight="17" prefWidth="192" styleClass="label " text="Спасибо за установку" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+  </children>
+</AnchorPane>
